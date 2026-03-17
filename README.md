@@ -1,5 +1,3 @@
-# Dashboard-Obras
-
 # 🏗️ Dashboard de Gestão: Venda e Reforma
 
 Este é um dashboard interativo desenvolvido em **Python** utilizando **Streamlit**, focado na gestão financeira de um projeto imobiliário que envolve a venda de um imóvel e a gestão de custos de uma reforma detalhada.
@@ -36,3 +34,37 @@ O sistema permite o acompanhamento de pagamentos, previsão de término de parce
 ├── reforma.db           # Banco de dados SQLite (gerado automaticamente)
 ├── requirements.txt     # Dependências do projeto
 └── README.md            # Documentação
+```
+## 🔧 Como rodar localmente
+
+# 1. Clone o repositório:
+
+```
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+cd seu-repositorio
+```
+
+# 2. Crie um ambiente virtual:
+
+```
+python -m venv .venv
+source .venv/bin/activate  # No Windows: .venv\Scripts\activate
+```
+
+# 3. Instale as dependências:
+
+```
+pip install -r requirements.txt
+```
+
+# 4. Execute o App:
+
+```
+streamlit run dash.py
+```
+
+## 🌐 Hospedagem na AWS
+
+A aplicação foi configurada para rodar em uma instância EC2 da AWS dentro do Free Tier.
+ - Porta utilizada: 80 (HTTP) para facilitar o acesso em redes corporativas.
+ - Processo: Gerenciado via nohup para execução 24/7.
