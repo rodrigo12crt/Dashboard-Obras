@@ -40,15 +40,18 @@ O sistema permite o acompanhamento de pagamentos, previsão de término de parce
 # 1. Clone o repositório:
 
 ```
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-cd seu-repositorio
+git clone https://github.com/rodrigo12crt/Dashboard-Obras.git
 ```
 
 # 2. Crie um ambiente virtual:
 
 ```
 python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
+# Linux
+source .venv/bin/activate
+
+# Windows:
+.venv\Scripts\activate
 ```
 
 # 3. Instale as dependências:
